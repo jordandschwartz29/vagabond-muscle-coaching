@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Faithful Before Found — A 5-Week Men’s Bible Study | Vagabond Muscle</title>
+<meta name="description" content="Faithful Before Found: a free five-week Bible study for men on servant leadership, consistency, and pursuing a relationship God’s way.">
+<link rel="canonical" href="https://vagabondmuscle.com/mens-study">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://vagabondmuscle.com/mens-study">
+<meta property="og:title" content="Faithful Before Found — A 5-Week Men’s Bible Study | Vagabond Muscle">
+<meta property="og:description" content="Faithful Before Found: a free five-week Bible study for men on servant leadership, consistency, and pursuing a relationship God’s way.">
+<meta property="og:image" content="https://vagabondmuscle.com/vm-hero-zion.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+/* Men's Study — layered on styles.css */
+.study{--serif:"EB Garamond",Georgia,"Times New Roman",serif;}
+.study-wrap{max-width:760px;margin:0 auto;padding:0 24px;}
+.study main a:focus-visible,.study summary:focus-visible,.study input:focus-visible{outline:2px solid var(--gold);outline-offset:3px;}
+
+.study-hero{padding:84px 0 56px;border-bottom:1px solid var(--border);}
+.study-hero h1{font-size:clamp(2.2rem,5.4vw,3.6rem);color:#fff;margin:0 0 30px;}
+.study-hero .lead{margin:0 0 30px;max-width:640px;}
+.crumb{font-size:.88rem;color:var(--text-dim);margin:0 0 18px;}
+.crumb a{color:var(--text-muted);text-decoration:none;border-bottom:1px solid var(--border-soft);}
+.crumb a:hover{color:#fff;}
+
+/* the key verse is the one bold move */
+.keyverse{margin:0 0 34px;padding:0;}
+.keyverse p{font-family:var(--serif);font-style:italic;font-size:clamp(1.5rem,3.4vw,2.2rem);line-height:1.35;color:#F2EBDA;margin:0 0 12px;}
+.keyverse cite{font-style:normal;color:var(--gold);font-weight:600;font-size:.95rem;}
+.hub .keyverse{border-left:2px solid var(--gold);padding-left:24px;margin:10px 0 40px;}
+
+.practice{background:var(--card);border:1px solid var(--border);border-left:3px solid var(--olive);padding:22px 26px;}
+.practice h2{font-size:1rem;color:var(--gold);margin:0 0 8px;letter-spacing:0;}
+.practice p{margin:0;color:#E4E4E4;line-height:1.6;}
+
+/* days */
+.study-days{padding:24px 0 40px;}
+.day{display:grid;grid-template-columns:96px 1fr;gap:0 28px;padding:44px 0;border-bottom:1px solid var(--border);}
+.day-num{color:var(--gold);font-weight:700;font-size:1.05rem;padding-top:4px;}
+.day h3{color:#fff;font-size:1.45rem;margin:0 0 18px;}
+.day h4{color:var(--text-dim);font-family:"Inter",sans-serif;font-size:.85rem;font-weight:600;margin:22px 0 8px;}
+.day h4:first-child{margin-top:4px;}
+.day-body>p{color:var(--text-muted);line-height:1.7;margin:0 0 18px;}
+.passage{margin:0 0 26px;}
+.passage summary{cursor:pointer;color:var(--text-dim);font-size:.88rem;margin:0 0 14px;list-style-position:outside;}
+.passage summary:hover{color:#fff;}
+.kjv{font-family:var(--serif);font-size:1.22rem;line-height:1.8;color:#E8E3D6;margin:0;max-width:62ch;}
+.kjv sup{font-family:"Inter",sans-serif;font-size:.62rem;color:#9C8A55;margin-right:3px;vertical-align:.5em;line-height:0;}
+.qs{margin:0 0 24px;padding-left:22px;color:#E6E6E6;line-height:1.6;}
+.qs li{margin:0 0 10px;padding-left:4px;}
+.qs li::marker{color:var(--gold);font-weight:600;}
+.practice-check{font-size:.95rem;}
+.done{display:inline-flex;align-items:center;gap:10px;color:var(--text-muted);font-size:.92rem;cursor:pointer;user-select:none;}
+.done input{width:18px;height:18px;accent-color:var(--gold);margin:0;cursor:pointer;}
+.day.is-done .day-num{color:var(--text-faint);}
+.day.is-done .done{color:var(--gold);}
+.day-7{border-bottom:none;}
+.day-7 .day-body{background:var(--card);border:1px solid var(--border);padding:28px 28px 24px;}
+
+/* week nav */
+.wk-nav{display:grid;grid-template-columns:1fr 1fr;gap:16px;padding-bottom:88px;}
+.wk-nav a{display:block;border:1px solid var(--border);padding:18px 20px;text-decoration:none;color:#fff;font-weight:600;line-height:1.35;transition:border-color .2s ease;}
+.wk-nav a:hover{border-color:var(--gold);}
+.wk-nav span{display:block;color:var(--text-dim);font-weight:500;font-size:.82rem;margin-bottom:4px;}
+.wk-next{text-align:right;}
+
+/* hub */
+.study-how,.study-weeks,.study-iron{padding:72px 0;border-bottom:1px solid var(--border);}
+.study-how h2,.study-weeks h2,.study-iron h2{font-size:clamp(1.6rem,3.6vw,2.2rem);color:#fff;margin:0 0 18px;}
+.study-how p,.study-iron p{color:var(--text-muted);font-size:1.08rem;line-height:1.7;margin:0 0 26px;}
+.study-how .method{margin:8px 0 26px;}
+.weeks{list-style:none;margin:8px 0 0;padding:0;border-top:1px solid var(--border);}
+.weeks a{display:grid;grid-template-columns:84px 1fr auto;grid-template-areas:"n t p" "n k p";gap:4px 20px;align-items:center;
+  padding:24px 6px;border-bottom:1px solid var(--border);text-decoration:none;transition:background-color .2s ease;}
+.weeks a:hover{background:#141414;}
+.wk-n{grid-area:n;color:var(--gold);font-weight:700;}
+.wk-t{grid-area:t;color:#fff;font-size:1.2rem;font-weight:600;}
+.wk-k{grid-area:k;color:var(--text-dim);font-size:.9rem;}
+.wk-p{grid-area:p;color:var(--text-faint);font-size:.85rem;white-space:nowrap;}
+.wk-p.started{color:var(--gold);}
+.save-note{color:var(--text-faint);font-size:.85rem;margin:18px 0 0;}
+.study-iron{border-bottom:none;padding-bottom:96px;}
+
+@media(max-width:640px){
+  .study-hero{padding:56px 0 40px;}
+  .study-wrap{padding:0 20px;}
+  .day{grid-template-columns:1fr;padding:36px 0;}
+  .day-num{margin-bottom:8px;padding-top:0;}
+  .day-7 .day-body{padding:22px 18px;}
+  .kjv{font-size:1.14rem;}
+  .weeks a{grid-template-columns:1fr;grid-template-areas:"n" "t" "k" "p";gap:4px;padding:20px 4px;}
+  .wk-nav{grid-template-columns:1fr;}
+  .wk-next{text-align:left;}
+}
+@media(prefers-reduced-motion:reduce){.weeks a,.wk-nav a{transition:none;}}
+
+</style>
+</head>
+<body class="study">
+<header>
+  <div class="announce">Hypertrophy coaching for lifters 35+ · Roster kept small · Applications reviewed personally</div>
+  <nav class="nav"><div class="nav-inner">
+    <a class="brand" href="/"><img src="vm-logo.png" alt="Vagabond Muscle logo" width="512" height="512">Vagabond Muscle Coaching</a>
+    <div class="nav-links">
+      <a href="/#coaching-tiers">Coaching</a><a href="/#onetime">One-Time Services</a>
+      <a href="/supplements">Supplements</a><a href="/about">About</a><a href="/questions">Questions</a><a href="/resources">Resources</a><a href="/mens-study">Men’s Study</a><a href="/apply">Apply</a>
+    </div>
+  </div></nav>
+</header>
+<main>
+<section class="study-hero hub">
+  <div class="study-wrap">
+    <h1>Faithful Before Found</h1>
+    <p class="lead">A five-week Bible study for men who want to lead well in dating and, one day, in marriage. Not by taking control, but by learning to serve first and becoming a man whose word holds.</p>
+    <blockquote class="keyverse"><p>For even the Son of man came not to be ministered unto, but to minister, and to give his life a ransom for many.</p><cite>Mark 10:45</cite></blockquote>
+    <a class="btn btn-gold" href="/mens-study-week-1">Start week 1</a>
+  </div>
+</section>
+<section class="study-how">
+  <div class="study-wrap">
+    <h2>How it works</h2>
+    <p>Each week has a theme, a key verse, and one practice to live out. Set aside 30 minutes a day for six days, then take day 7 to look back and go deeper. Every passage is printed on the page in the King James Version, so all you need is this site and a notebook.</p>
+    <div class="method">
+      <div class="cell"><h3>Read</h3><p>Read the day’s passage slowly, twice. About 10 to 15 minutes.</p></div>
+      <div class="cell"><h3>Answer</h3><p>Three quick questions in your notebook to lock in the thought. About 5 minutes.</p></div>
+      <div class="cell"><h3>Pray and act</h3><p>Pray the passage back to God and choose one specific action for today. About 10 minutes.</p></div>
+    </div>
+    <p>On day 7, reread your six daily answers and work through the week’s deeper journal questions.</p>
+  </div>
+</section>
+<section class="study-weeks">
+  <div class="study-wrap">
+    <h2>The five weeks</h2>
+    <ol class="weeks">
+    <li><a href="/mens-study-week-1">
+      <span class="wk-n">Week 1</span>
+      <span class="wk-t">Leadership Is a Towel, Not a Throne</span>
+      <span class="wk-k">Mark 10:45</span>
+      <span class="wk-p" data-week="1">Not started</span>
+    </a></li>
+    <li><a href="/mens-study-week-2">
+      <span class="wk-n">Week 2</span>
+      <span class="wk-t">The Root of Control: Fear</span>
+      <span class="wk-k">1 John 4:18</span>
+      <span class="wk-p" data-week="2">Not started</span>
+    </a></li>
+    <li><a href="/mens-study-week-3">
+      <span class="wk-n">Week 3</span>
+      <span class="wk-t">Faithful in Little</span>
+      <span class="wk-k">Luke 16:10</span>
+      <span class="wk-p" data-week="3">Not started</span>
+    </a></li>
+    <li><a href="/mens-study-week-4">
+      <span class="wk-n">Week 4</span>
+      <span class="wk-t">Pursuing Like Boaz</span>
+      <span class="wk-k">Ruth 3:18</span>
+      <span class="wk-p" data-week="4">Not started</span>
+    </a></li>
+    <li><a href="/mens-study-week-5">
+      <span class="wk-n">Week 5</span>
+      <span class="wk-t">Love That Leads</span>
+      <span class="wk-k">Ephesians 5:25</span>
+      <span class="wk-p" data-week="5">Not started</span>
+    </a></li>
+    </ol>
+    <p class="save-note">Checking off days saves your progress in this browser only.</p>
+  </div>
+</section>
+<section class="study-iron">
+  <div class="study-wrap">
+    <blockquote class="keyverse"><p>Iron sharpeneth iron; so a man sharpeneth the countenance of his friend.</p><cite>Proverbs 27:17</cite></blockquote>
+    <h2>Don’t do it alone</h2>
+    <p>Before you start, pick one man you trust: a friend, a pastor, or a mentor. Send him a short update at the end of every week. Consistency is far easier when someone expects to hear from you.</p>
+  </div>
+</section>
+</main>
+
+<footer class="foot"><div class="foot-inner">
+  <div class="foot-links"><a href="/apply">Apply</a><a href="/about">About</a><a href="/questions">Questions</a><a href="/supplements">Supplements</a><a href="/resources">Resources</a><a href="/pattaya-coaching">Pattaya</a><a href="/mens-study">Men’s Study</a></div>
+  <div>Vagabond Muscle Coaching · Pattaya, Thailand · Coaching worldwide</div>
+  <p class="fine">© Vagabond Muscle Coaching.</p>
+</div></footer>
+<script>
+(function(){
+  function get(k){try{return localStorage.getItem(k)==='1';}catch(e){return false;}}
+  function set(k,v){try{v?localStorage.setItem(k,'1'):localStorage.removeItem(k);}catch(e){}}
+  document.querySelectorAll('[data-done]').forEach(function(box){
+    var k=box.getAttribute('data-done'); box.checked=get(k);
+    box.closest('.day').classList.toggle('is-done',box.checked);
+    box.addEventListener('change',function(){set(k,box.checked);box.closest('.day').classList.toggle('is-done',box.checked);});
+  });
+  document.querySelectorAll('[data-week]').forEach(function(el){
+    var w=el.getAttribute('data-week'),n=0;
+    for(var d=1;d<=7;d++){if(get('vm-study-w'+w+'-d'+d))n++;}
+    el.textContent=n===7?'Completed':(n? n+' of 7 days done':'Not started');
+    if(n) el.classList.add('started');
+  });
+})();
+</script>
+</body>
+</html>

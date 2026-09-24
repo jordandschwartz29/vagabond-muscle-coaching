@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Week 5: Love That Leads — Men’s Study | Vagabond Muscle</title>
+<meta name="description" content="Week 5 of Faithful Before Found, a five-week men’s Bible study: Love That Leads. Daily KJV readings and questions.">
+<link rel="canonical" href="https://vagabondmuscle.com/mens-study-week-5">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://vagabondmuscle.com/mens-study-week-5">
+<meta property="og:title" content="Week 5: Love That Leads — Men’s Study | Vagabond Muscle">
+<meta property="og:description" content="Week 5 of Faithful Before Found, a five-week men’s Bible study: Love That Leads. Daily KJV readings and questions.">
+<meta property="og:image" content="https://vagabondmuscle.com/vm-hero-zion.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+/* Men's Study — layered on styles.css */
+.study{--serif:"EB Garamond",Georgia,"Times New Roman",serif;}
+.study-wrap{max-width:760px;margin:0 auto;padding:0 24px;}
+.study main a:focus-visible,.study summary:focus-visible,.study input:focus-visible{outline:2px solid var(--gold);outline-offset:3px;}
+
+.study-hero{padding:84px 0 56px;border-bottom:1px solid var(--border);}
+.study-hero h1{font-size:clamp(2.2rem,5.4vw,3.6rem);color:#fff;margin:0 0 30px;}
+.study-hero .lead{margin:0 0 30px;max-width:640px;}
+.crumb{font-size:.88rem;color:var(--text-dim);margin:0 0 18px;}
+.crumb a{color:var(--text-muted);text-decoration:none;border-bottom:1px solid var(--border-soft);}
+.crumb a:hover{color:#fff;}
+
+/* the key verse is the one bold move */
+.keyverse{margin:0 0 34px;padding:0;}
+.keyverse p{font-family:var(--serif);font-style:italic;font-size:clamp(1.5rem,3.4vw,2.2rem);line-height:1.35;color:#F2EBDA;margin:0 0 12px;}
+.keyverse cite{font-style:normal;color:var(--gold);font-weight:600;font-size:.95rem;}
+.hub .keyverse{border-left:2px solid var(--gold);padding-left:24px;margin:10px 0 40px;}
+
+.practice{background:var(--card);border:1px solid var(--border);border-left:3px solid var(--olive);padding:22px 26px;}
+.practice h2{font-size:1rem;color:var(--gold);margin:0 0 8px;letter-spacing:0;}
+.practice p{margin:0;color:#E4E4E4;line-height:1.6;}
+
+/* days */
+.study-days{padding:24px 0 40px;}
+.day{display:grid;grid-template-columns:96px 1fr;gap:0 28px;padding:44px 0;border-bottom:1px solid var(--border);}
+.day-num{color:var(--gold);font-weight:700;font-size:1.05rem;padding-top:4px;}
+.day h3{color:#fff;font-size:1.45rem;margin:0 0 18px;}
+.day h4{color:var(--text-dim);font-family:"Inter",sans-serif;font-size:.85rem;font-weight:600;margin:22px 0 8px;}
+.day h4:first-child{margin-top:4px;}
+.day-body>p{color:var(--text-muted);line-height:1.7;margin:0 0 18px;}
+.passage{margin:0 0 26px;}
+.passage summary{cursor:pointer;color:var(--text-dim);font-size:.88rem;margin:0 0 14px;list-style-position:outside;}
+.passage summary:hover{color:#fff;}
+.kjv{font-family:var(--serif);font-size:1.22rem;line-height:1.8;color:#E8E3D6;margin:0;max-width:62ch;}
+.kjv sup{font-family:"Inter",sans-serif;font-size:.62rem;color:#9C8A55;margin-right:3px;vertical-align:.5em;line-height:0;}
+.qs{margin:0 0 24px;padding-left:22px;color:#E6E6E6;line-height:1.6;}
+.qs li{margin:0 0 10px;padding-left:4px;}
+.qs li::marker{color:var(--gold);font-weight:600;}
+.practice-check{font-size:.95rem;}
+.done{display:inline-flex;align-items:center;gap:10px;color:var(--text-muted);font-size:.92rem;cursor:pointer;user-select:none;}
+.done input{width:18px;height:18px;accent-color:var(--gold);margin:0;cursor:pointer;}
+.day.is-done .day-num{color:var(--text-faint);}
+.day.is-done .done{color:var(--gold);}
+.day-7{border-bottom:none;}
+.day-7 .day-body{background:var(--card);border:1px solid var(--border);padding:28px 28px 24px;}
+
+/* week nav */
+.wk-nav{display:grid;grid-template-columns:1fr 1fr;gap:16px;padding-bottom:88px;}
+.wk-nav a{display:block;border:1px solid var(--border);padding:18px 20px;text-decoration:none;color:#fff;font-weight:600;line-height:1.35;transition:border-color .2s ease;}
+.wk-nav a:hover{border-color:var(--gold);}
+.wk-nav span{display:block;color:var(--text-dim);font-weight:500;font-size:.82rem;margin-bottom:4px;}
+.wk-next{text-align:right;}
+
+/* hub */
+.study-how,.study-weeks,.study-iron{padding:72px 0;border-bottom:1px solid var(--border);}
+.study-how h2,.study-weeks h2,.study-iron h2{font-size:clamp(1.6rem,3.6vw,2.2rem);color:#fff;margin:0 0 18px;}
+.study-how p,.study-iron p{color:var(--text-muted);font-size:1.08rem;line-height:1.7;margin:0 0 26px;}
+.study-how .method{margin:8px 0 26px;}
+.weeks{list-style:none;margin:8px 0 0;padding:0;border-top:1px solid var(--border);}
+.weeks a{display:grid;grid-template-columns:84px 1fr auto;grid-template-areas:"n t p" "n k p";gap:4px 20px;align-items:center;
+  padding:24px 6px;border-bottom:1px solid var(--border);text-decoration:none;transition:background-color .2s ease;}
+.weeks a:hover{background:#141414;}
+.wk-n{grid-area:n;color:var(--gold);font-weight:700;}
+.wk-t{grid-area:t;color:#fff;font-size:1.2rem;font-weight:600;}
+.wk-k{grid-area:k;color:var(--text-dim);font-size:.9rem;}
+.wk-p{grid-area:p;color:var(--text-faint);font-size:.85rem;white-space:nowrap;}
+.wk-p.started{color:var(--gold);}
+.save-note{color:var(--text-faint);font-size:.85rem;margin:18px 0 0;}
+.study-iron{border-bottom:none;padding-bottom:96px;}
+
+@media(max-width:640px){
+  .study-hero{padding:56px 0 40px;}
+  .study-wrap{padding:0 20px;}
+  .day{grid-template-columns:1fr;padding:36px 0;}
+  .day-num{margin-bottom:8px;padding-top:0;}
+  .day-7 .day-body{padding:22px 18px;}
+  .kjv{font-size:1.14rem;}
+  .weeks a{grid-template-columns:1fr;grid-template-areas:"n" "t" "k" "p";gap:4px;padding:20px 4px;}
+  .wk-nav{grid-template-columns:1fr;}
+  .wk-next{text-align:left;}
+}
+@media(prefers-reduced-motion:reduce){.weeks a,.wk-nav a{transition:none;}}
+
+</style>
+</head>
+<body class="study">
+<header>
+  <div class="announce">Hypertrophy coaching for lifters 35+ · Roster kept small · Applications reviewed personally</div>
+  <nav class="nav"><div class="nav-inner">
+    <a class="brand" href="/"><img src="vm-logo.png" alt="Vagabond Muscle logo" width="512" height="512">Vagabond Muscle Coaching</a>
+    <div class="nav-links">
+      <a href="/#coaching-tiers">Coaching</a><a href="/#onetime">One-Time Services</a>
+      <a href="/supplements">Supplements</a><a href="/about">About</a><a href="/questions">Questions</a><a href="/resources">Resources</a><a href="/mens-study">Men’s Study</a><a href="/apply">Apply</a>
+    </div>
+  </div></nav>
+</header>
+<main>
+<section class="study-hero">
+  <div class="study-wrap">
+    <p class="crumb"><a href="/mens-study">Faithful Before Found</a> <span aria-hidden="true">/</span> Week 5 of 5</p>
+    <h1>Love That Leads</h1>
+    <blockquote class="keyverse"><p>Husbands, love your wives, even as Christ also loved the church, and gave himself for it;</p><cite>Ephesians 5:25</cite></blockquote>
+    <p class="lead">The final week pulls it together. Scripture’s picture of a man leading in love isn’t authority for its own sake. It’s sacrifice, loving “even as Christ also loved the church, and gave himself for it.” This week you’ll write the rule of life you carry past these five weeks.</p>
+    <div class="practice"><h2>This week’s practice</h2><p>Write a personal rule of life: three to five daily and weekly habits you’ll keep after this study. Ask your accountability brother to check in monthly.</p></div>
+  </div>
+</section>
+<section class="study-days">
+  <div class="study-wrap">
+  <article class="day" id="day-1">
+    <div class="day-num">Day 1</div>
+    <div class="day-body">
+      <h3>1 Corinthians 13</h3>
+      <details class="passage" open>
+        <summary>Scripture (KJV)</summary>
+        <p class="kjv"><span class="v"><sup>1</sup>Though I speak with the tongues of men and of angels, and have not charity, I am become as sounding brass, or a tinkling cymbal.</span> <span class="v"><sup>2</sup>And though I have the gift of prophecy, and understand all mysteries, and all knowledge; and though I have all faith, so that I could remove mountains, and have not charity, I am nothing.</span> <span class="v"><sup>3</sup>And though I bestow all my goods to feed the poor, and though I give my body to be burned, and have not charity, it profiteth me nothing.</span> <span class="v"><sup>4</sup>Charity suffereth long, and is kind; charity envieth not; charity vaunteth not itself, is not puffed up,</span> <span class="v"><sup>5</sup>Doth not behave itself unseemly, seeketh not her own, is not easily provoked, thinketh no evil;</span> <span class="v"><sup>6</sup>Rejoiceth not in iniquity, but rejoiceth in the truth;</span> <span class="v"><sup>7</sup>Beareth all things, believeth all things, hopeth all things, endureth all things.</span> <span class="v"><sup>8</sup>Charity never faileth: but whether there be prophecies, they shall fail; whether there be tongues, they shall cease; whether there be knowledge, it shall vanish away.</span> <span class="v"><sup>9</sup>For we know in part, and we prophesy in part.</span> <span class="v"><sup>10</sup>But when that which is perfect is come, then that which is in part shall be done away.</span> <span class="v"><sup>11</sup>When I was a child, I spake as a child, I understood as a child, I thought as a child: but when I became a man, I put away childish things.</span> <span class="v"><sup>12</sup>For now we see through a glass, darkly; but then face to face: now I know in part; but then shall I know even as also I am known.</span> <span class="v"><sup>13</sup>And now abideth faith, hope, charity, these three; but the greatest of these is charity.</span></p>
+      </details>
+      <ol class="qs"><li>In one sentence, what is this passage saying?</li><li>What’s one thing I’ll do or watch for today because of it?</li><li>Which line about charity (love) is hardest for me right now?</li></ol>
+      <label class="done"><input type="checkbox" data-done="vm-study-w5-d1"> Mark day 1 done</label>
+    </div>
+  </article>
+  <article class="day" id="day-2">
+    <div class="day-num">Day 2</div>
+    <div class="day-body">
+      <h3>Ephesians 5:21–33</h3>
+      <details class="passage" open>
+        <summary>Scripture (KJV)</summary>
+        <p class="kjv"><span class="v"><sup>21</sup>Submitting yourselves one to another in the fear of God.</span> <span class="v"><sup>22</sup>Wives, submit yourselves unto your own husbands, as unto the Lord.</span> <span class="v"><sup>23</sup>For the husband is the head of the wife, even as Christ is the head of the church: and he is the saviour of the body.</span> <span class="v"><sup>24</sup>Therefore as the church is subject unto Christ, so let the wives be to their own husbands in every thing.</span> <span class="v"><sup>25</sup>Husbands, love your wives, even as Christ also loved the church, and gave himself for it;</span> <span class="v"><sup>26</sup>That he might sanctify and cleanse it with the washing of water by the word,</span> <span class="v"><sup>27</sup>That he might present it to himself a glorious church, not having spot, or wrinkle, or any such thing; but that it should be holy and without blemish.</span> <span class="v"><sup>28</sup>So ought men to love their wives as their own bodies. He that loveth his wife loveth himself.</span> <span class="v"><sup>29</sup>For no man ever yet hated his own flesh; but nourisheth and cherisheth it, even as the Lord the church:</span> <span class="v"><sup>30</sup>For we are members of his body, of his flesh, and of his bones.</span> <span class="v"><sup>31</sup>For this cause shall a man leave his father and mother, and shall be joined unto his wife, and they two shall be one flesh.</span> <span class="v"><sup>32</sup>This is a great mystery: but I speak concerning Christ and the church.</span> <span class="v"><sup>33</sup>Nevertheless let every one of you in particular so love his wife even as himself; and the wife see that she reverence her husband.</span></p>
+      </details>
+      <ol class="qs"><li>In one sentence, what is this passage saying?</li><li>What’s one thing I’ll do or watch for today because of it?</li><li>The passage opens with “submitting yourselves one to another” (v. 21). Does it frame the husband’s role as authority or as sacrifice?</li></ol>
+      <label class="done"><input type="checkbox" data-done="vm-study-w5-d2"> Mark day 2 done</label>
+    </div>
+  </article>
+  <article class="day" id="day-3">
+    <div class="day-num">Day 3</div>
+    <div class="day-body">
+      <h3>Colossians 3:12–17</h3>
+      <details class="passage" open>
+        <summary>Scripture (KJV)</summary>
+        <p class="kjv"><span class="v"><sup>12</sup>Put on therefore, as the elect of God, holy and beloved, bowels of mercies, kindness, humbleness of mind, meekness, longsuffering;</span> <span class="v"><sup>13</sup>Forbearing one another, and forgiving one another, if any man have a quarrel against any: even as Christ forgave you, so also do ye.</span> <span class="v"><sup>14</sup>And above all these things put on charity, which is the bond of perfectness.</span> <span class="v"><sup>15</sup>And let the peace of God rule in your hearts, to the which also ye are called in one body; and be ye thankful.</span> <span class="v"><sup>16</sup>Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord.</span> <span class="v"><sup>17</sup>And whatsoever ye do in word or deed, do all in the name of the Lord Jesus, giving thanks to God and the Father by him.</span></p>
+      </details>
+      <ol class="qs"><li>In one sentence, what is this passage saying?</li><li>What’s one thing I’ll do or watch for today because of it?</li><li>Which of these do I most need to “put on” this week?</li></ol>
+      <label class="done"><input type="checkbox" data-done="vm-study-w5-d3"> Mark day 3 done</label>
+    </div>
+  </article>
+  <article class="day" id="day-4">
+    <div class="day-num">Day 4</div>
+    <div class="day-body">
+      <h3>Romans 12:9–21</h3>
+      <details class="passage" open>
+        <summary>Scripture (KJV)</summary>
+        <p class="kjv"><span class="v"><sup>9</sup>Let love be without dissimulation. Abhor that which is evil; cleave to that which is good.</span> <span class="v"><sup>10</sup>Be kindly affectioned one to another with brotherly love; in honour preferring one another;</span> <span class="v"><sup>11</sup>Not slothful in business; fervent in spirit; serving the Lord;</span> <span class="v"><sup>12</sup>Rejoicing in hope; patient in tribulation; continuing instant in prayer;</span> <span class="v"><sup>13</sup>Distributing to the necessity of saints; given to hospitality.</span> <span class="v"><sup>14</sup>Bless them which persecute you: bless, and curse not.</span> <span class="v"><sup>15</sup>Rejoice with them that do rejoice, and weep with them that weep.</span> <span class="v"><sup>16</sup>Be of the same mind one toward another. Mind not high things, but condescend to men of low estate. Be not wise in your own conceits.</span> <span class="v"><sup>17</sup>Recompense to no man evil for evil. Provide things honest in the sight of all men.</span> <span class="v"><sup>18</sup>If it be possible, as much as lieth in you, live peaceably with all men.</span> <span class="v"><sup>19</sup>Dearly beloved, avenge not yourselves, but rather give place unto wrath: for it is written, Vengeance is mine; I will repay, saith the Lord.</span> <span class="v"><sup>20</sup>Therefore if thine enemy hunger, feed him; if he thirst, give him drink: for in so doing thou shalt heap coals of fire on his head.</span> <span class="v"><sup>21</sup>Be not overcome of evil, but overcome evil with good.</span></p>
+      </details>
+      <ol class="qs"><li>In one sentence, what is this passage saying?</li><li>What’s one thing I’ll do or watch for today because of it?</li><li>How does this passage say to respond when someone lets me down?</li></ol>
+      <label class="done"><input type="checkbox" data-done="vm-study-w5-d4"> Mark day 4 done</label>
+    </div>
+  </article>
+  <article class="day" id="day-5">
+    <div class="day-num">Day 5</div>
+    <div class="day-body">
+      <h3>1 Peter 3:7–12</h3>
+      <details class="passage" open>
+        <summary>Scripture (KJV)</summary>
+        <p class="kjv"><span class="v"><sup>7</sup>Likewise, ye husbands, dwell with them according to knowledge, giving honour unto the wife, as unto the weaker vessel, and as being heirs together of the grace of life; that your prayers be not hindered.</span> <span class="v"><sup>8</sup>Finally, be ye all of one mind, having compassion one of another, love as brethren, be pitiful, be courteous:</span> <span class="v"><sup>9</sup>Not rendering evil for evil, or railing for railing: but contrariwise blessing; knowing that ye are thereunto called, that ye should inherit a blessing.</span> <span class="v"><sup>10</sup>For he that will love life, and see good days, let him refrain his tongue from evil, and his lips that they speak no guile:</span> <span class="v"><sup>11</sup>Let him eschew evil, and do good; let him seek peace, and ensue it.</span> <span class="v"><sup>12</sup>For the eyes of the Lord are over the righteous, and his ears are open unto their prayers: but the face of the Lord is against them that do evil.</span></p>
+      </details>
+      <ol class="qs"><li>In one sentence, what is this passage saying?</li><li>What’s one thing I’ll do or watch for today because of it?</li><li>What would it take for me to “dwell with them according to knowledge”?</li></ol>
+      <label class="done"><input type="checkbox" data-done="vm-study-w5-d5"> Mark day 5 done</label>
+    </div>
+  </article>
+  <article class="day" id="day-6">
+    <div class="day-num">Day 6</div>
+    <div class="day-body">
+      <h3>John 15:9–17</h3>
+      <details class="passage" open>
+        <summary>Scripture (KJV)</summary>
+        <p class="kjv"><span class="v"><sup>9</sup>As the Father hath loved me, so have I loved you: continue ye in my love.</span> <span class="v"><sup>10</sup>If ye keep my commandments, ye shall abide in my love; even as I have kept my Father’s commandments, and abide in his love.</span> <span class="v"><sup>11</sup>These things have I spoken unto you, that my joy might remain in you, and that your joy might be full.</span> <span class="v"><sup>12</sup>This is my commandment, That ye love one another, as I have loved you.</span> <span class="v"><sup>13</sup>Greater love hath no man than this, that a man lay down his life for his friends.</span> <span class="v"><sup>14</sup>Ye are my friends, if ye do whatsoever I command you.</span> <span class="v"><sup>15</sup>Henceforth I call you not servants; for the servant knoweth not what his lord doeth: but I have called you friends; for all things that I have heard of my Father I have made known unto you.</span> <span class="v"><sup>16</sup>Ye have not chosen me, but I have chosen you, and ordained you, that ye should go and bring forth fruit, and that your fruit should remain: that whatsoever ye shall ask of the Father in my name, he may give it you.</span> <span class="v"><sup>17</sup>These things I command you, that ye love one another.</span></p>
+      </details>
+      <ol class="qs"><li>In one sentence, what is this passage saying?</li><li>What’s one thing I’ll do or watch for today because of it?</li><li>How did Jesus define love and friendship, and how does that change mine?</li></ol>
+      <label class="done"><input type="checkbox" data-done="vm-study-w5-d6"> Mark day 6 done</label>
+    </div>
+  </article>
+  <article class="day day-7" id="day-7">
+    <div class="day-num">Day 7</div>
+    <div class="day-body">
+      <h3>Review and journal</h3>
+      <p>Read back through your six daily answers first. Then give 30 to 40 minutes to these deeper questions.</p>
+      <ol class="qs"><li>Rewrite 1 Corinthians 13:4–7 with your name in place of “charity.” Which lines are true right now, and which aren’t yet?</li><li>What has changed in me over these five weeks?</li><li>What’s the one habit I most need to keep?</li></ol>
+      <p class="practice-check">Did you do this week’s practice? Tell your accountability brother how it went.</p>
+      <label class="done"><input type="checkbox" data-done="vm-study-w5-d7"> Mark day 7 done</label>
+    </div>
+  </article>
+  </div>
+</section>
+<nav class="wk-nav study-wrap" aria-label="Week navigation"><a class="wk-prev" href="/mens-study-week-4"><span>Week 4</span>Pursuing Like Boaz</a><a class="wk-next" href="/mens-study"><span>Finished</span>Back to the overview</a></nav>
+</main>
+
+<footer class="foot"><div class="foot-inner">
+  <div class="foot-links"><a href="/apply">Apply</a><a href="/about">About</a><a href="/questions">Questions</a><a href="/supplements">Supplements</a><a href="/resources">Resources</a><a href="/pattaya-coaching">Pattaya</a><a href="/mens-study">Men’s Study</a></div>
+  <div>Vagabond Muscle Coaching · Pattaya, Thailand · Coaching worldwide</div>
+  <p class="fine">© Vagabond Muscle Coaching.</p>
+</div></footer>
+<script>
+(function(){
+  function get(k){try{return localStorage.getItem(k)==='1';}catch(e){return false;}}
+  function set(k,v){try{v?localStorage.setItem(k,'1'):localStorage.removeItem(k);}catch(e){}}
+  document.querySelectorAll('[data-done]').forEach(function(box){
+    var k=box.getAttribute('data-done'); box.checked=get(k);
+    box.closest('.day').classList.toggle('is-done',box.checked);
+    box.addEventListener('change',function(){set(k,box.checked);box.closest('.day').classList.toggle('is-done',box.checked);});
+  });
+  document.querySelectorAll('[data-week]').forEach(function(el){
+    var w=el.getAttribute('data-week'),n=0;
+    for(var d=1;d<=7;d++){if(get('vm-study-w'+w+'-d'+d))n++;}
+    el.textContent=n===7?'Completed':(n? n+' of 7 days done':'Not started');
+    if(n) el.classList.add('started');
+  });
+})();
+</script>
+</body>
+</html>

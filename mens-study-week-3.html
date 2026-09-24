@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Week 3: Faithful in Little — Men’s Study | Vagabond Muscle</title>
+<meta name="description" content="Week 3 of Faithful Before Found, a five-week men’s Bible study: Faithful in Little. Daily KJV readings and questions.">
+<link rel="canonical" href="https://vagabondmuscle.com/mens-study-week-3">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://vagabondmuscle.com/mens-study-week-3">
+<meta property="og:title" content="Week 3: Faithful in Little — Men’s Study | Vagabond Muscle">
+<meta property="og:description" content="Week 3 of Faithful Before Found, a five-week men’s Bible study: Faithful in Little. Daily KJV readings and questions.">
+<meta property="og:image" content="https://vagabondmuscle.com/vm-hero-zion.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+/* Men's Study — layered on styles.css */
+.study{--serif:"EB Garamond",Georgia,"Times New Roman",serif;}
+.study-wrap{max-width:760px;margin:0 auto;padding:0 24px;}
+.study main a:focus-visible,.study summary:focus-visible,.study input:focus-visible{outline:2px solid var(--gold);outline-offset:3px;}
+
+.study-hero{padding:84px 0 56px;border-bottom:1px solid var(--border);}
+.study-hero h1{font-size:clamp(2.2rem,5.4vw,3.6rem);color:#fff;margin:0 0 30px;}
+.study-hero .lead{margin:0 0 30px;max-width:640px;}
+.crumb{font-size:.88rem;color:var(--text-dim);margin:0 0 18px;}
+.crumb a{color:var(--text-muted);text-decoration:none;border-bottom:1px solid var(--border-soft);}
+.crumb a:hover{color:#fff;}
+
+/* the key verse is the one bold move */
+.keyverse{margin:0 0 34px;padding:0;}
+.keyverse p{font-family:var(--serif);font-style:italic;font-size:clamp(1.5rem,3.4vw,2.2rem);line-height:1.35;color:#F2EBDA;margin:0 0 12px;}
+.keyverse cite{font-style:normal;color:var(--gold);font-weight:600;font-size:.95rem;}
+.hub .keyverse{border-left:2px solid var(--gold);padding-left:24px;margin:10px 0 40px;}
+
+.practice{background:var(--card);border:1px solid var(--border);border-left:3px solid var(--olive);padding:22px 26px;}
+.practice h2{font-size:1rem;color:var(--gold);margin:0 0 8px;letter-spacing:0;}
+.practice p{margin:0;color:#E4E4E4;line-height:1.6;}
+
+/* days */
+.study-days{padding:24px 0 40px;}
+.day{display:grid;grid-template-columns:96px 1fr;gap:0 28px;padding:44px 0;border-bottom:1px solid var(--border);}
+.day-num{color:var(--gold);font-weight:700;font-size:1.05rem;padding-top:4px;}
+.day h3{color:#fff;font-size:1.45rem;margin:0 0 18px;}
+.day h4{color:var(--text-dim);font-family:"Inter",sans-serif;font-size:.85rem;font-weight:600;margin:22px 0 8px;}
+.day h4:first-child{margin-top:4px;}
+.day-body>p{color:var(--text-muted);line-height:1.7;margin:0 0 18px;}
+.passage{margin:0 0 26px;}
+.passage summary{cursor:pointer;color:var(--text-dim);font-size:.88rem;margin:0 0 14px;list-style-position:outside;}
+.passage summary:hover{color:#fff;}
+.kjv{font-family:var(--serif);font-size:1.22rem;line-height:1.8;color:#E8E3D6;margin:0;max-width:62ch;}
+.kjv sup{font-family:"Inter",sans-serif;font-size:.62rem;color:#9C8A55;margin-right:3px;vertical-align:.5em;line-height:0;}
+.qs{margin:0 0 24px;padding-left:22px;color:#E6E6E6;line-height:1.6;}
+.qs li{margin:0 0 10px;padding-left:4px;}
+.qs li::marker{color:var(--gold);font-weight:600;}
+.practice-check{font-size:.95rem;}
+.done{display:inline-flex;align-items:center;gap:10px;color:var(--text-muted);font-size:.92rem;cursor:pointer;user-select:none;}
+.done input{width:18px;height:18px;accent-color:var(--gold);margin:0;cursor:pointer;}
+.day.is-done .day-num{color:var(--text-faint);}
+.day.is-done .done{color:var(--gold);}
+.day-7{border-bottom:none;}
+.day-7 .day-body{background:var(--card);border:1px solid var(--border);padding:28px 28px 24px;}
+
+/* week nav */
+.wk-nav{display:grid;grid-template-columns:1fr 1fr;gap:16px;padding-bottom:88px;}
+.wk-nav a{display:block;border:1px solid var(--border);padding:18px 20px;text-decoration:none;color:#fff;font-weight:600;line-height:1.35;transition:border-color .2s ease;}
+.wk-nav a:hover{border-color:var(--gold);}
+.wk-nav span{display:block;color:var(--text-dim);font-weight:500;font-size:.82rem;margin-bottom:4px;}
+.wk-next{text-align:right;}
+
+/* hub */
+.study-how,.study-weeks,.study-iron{padding:72px 0;border-bottom:1px solid var(--border);}
+.study-how h2,.study-weeks h2,.study-iron h2{font-size:clamp(1.6rem,3.6vw,2.2rem);color:#fff;margin:0 0 18px;}
+.study-how p,.study-iron p{color:var(--text-muted);font-size:1.08rem;line-height:1.7;margin:0 0 26px;}
+.study-how .method{margin:8px 0 26px;}
+.weeks{list-style:none;margin:8px 0 0;padding:0;border-top:1px solid var(--border);}
+.weeks a{display:grid;grid-template-columns:84px 1fr auto;grid-template-areas:"n t p" "n k p";gap:4px 20px;align-items:center;
+  padding:24px 6px;border-bottom:1px solid var(--border);text-decoration:none;transition:background-color .2s ease;}
+.weeks a:hover{background:#141414;}
+.wk-n{grid-area:n;color:var(--gold);font-weight:700;}
+.wk-t{grid-area:t;color:#fff;font-size:1.2rem;font-weight:600;}
+.wk-k{grid-area:k;color:var(--text-dim);font-size:.9rem;}
+.wk-p{grid-area:p;color:var(--text-faint);font-size:.85rem;white-space:nowrap;}
+.wk-p.started{color:var(--gold);}
+.save-note{color:var(--text-faint);font-size:.85rem;margin:18px 0 0;}
+.study-iron{border-bottom:none;padding-bottom:96px;}
+
+@media(max-width:640px){
+  .study-hero{padding:56px 0 40px;}
+  .study-wrap{padding:0 20px;}
+  .day{grid-template-columns:1fr;padding:36px 0;}
+  .day-num{margin-bottom:8px;padding-top:0;}
+  .day-7 .day-body{padding:22px 18px;}
+  .kjv{font-size:1.14rem;}
+  .weeks a{grid-template-columns:1fr;grid-template-areas:"n" "t" "k" "p";gap:4px;padding:20px 4px;}
+  .wk-nav{grid-template-columns:1fr;}
+  .wk-next{text-align:left;}
+}
+@media(prefers-reduced-motion:reduce){.weeks a,.wk-nav a{transition:none;}}
+
+</style>
+</head>
+<body class="study">
+<header>
+  <div class="announce">Hypertrophy coaching for lifters 35+ · Roster kept small · Applications reviewed personally</div>
+  <nav class="nav"><div class="nav-inner">
+    <a class="brand" href="/"><img src="vm-logo.png" alt="Vagabond Muscle logo" width="512" height="512">Vagabond Muscle Coaching</a>
+    <div class="nav-links">
+      <a href="/#coaching-tiers">Coaching</a><a href="/#onetime">One-Time Services</a>
+      <a href="/supplements">Supplements</a><a href="/about">About</a><a href="/questions">Questions</a><a href="/resources">Resources</a><a href="/mens-study">Men’s Study</a><a href="/apply">Apply</a>
+    </div>
+  </div></nav>
+</header>
+<main>
+<section class="study-hero">
+  <div class="study-wrap">
+    <p class="crumb"><a href="/mens-study">Faithful Before Found</a> <span aria-hidden="true">/</span> Week 3 of 5</p>
+    <h1>Faithful in Little</h1>
+    <blockquote class="keyverse"><p>He that is faithful in that which is least is faithful also in much: and he that is unjust in the least is unjust also in much.</p><cite>Luke 16:10</cite></blockquote>
+    <p class="lead">A woman learns whether she can trust you long before any big promise. She learns it from whether you show up when you said, call when you said, and do what you said. Consistency in small things is how a man’s word becomes worth something.</p>
+    <div class="practice"><h2>This week’s practice</h2><p>Make only promises you can keep this week, including small ones like texts, calls, and times. Track every one as kept or broken. No excuses written down.</p></div>
+  </div>
+</section>
+<section class="study-days">
+  <div class="study-wrap">
+  <article class="day" id="day-1">
+    <div class="day-num">Day 1</div>
+    <div class="day-body">
+      <h3>Matthew 5:33–37</h3>
+      <details class="passage" open>
+        <summary>Scripture (KJV)</summary>
+        <p class="kjv"><span class="v"><sup>33</sup>Again, ye have heard that it hath been said by them of old time, Thou shalt not forswear thyself, but shalt perform unto the Lord thine oaths:</span> <span class="v"><sup>34</sup>But I say unto you, Swear not at all; neither by heaven; for it is God’s throne:</span> <span class="v"><sup>35</sup>Nor by the earth; for it is his footstool: neither by Jerusalem; for it is the city of the great King.</span> <span class="v"><sup>36</sup>Neither shalt thou swear by thy head, because thou canst not make one hair white or black.</span> <span class="v"><sup>37</sup>But let your communication be, Yea, yea; Nay, nay: for whatsoever is more than these cometh of evil.</span></p>
+      </details>
+      <ol class="qs"><li>In one sentence, what is this passage saying?</li><li>What’s one thing I’ll do or watch for today because of it?</li><li>Where do I add extra words or promises just to be believed?</li></ol>
+      <label class="done"><input type="checkbox" data-done="vm-study-w3-d1"> Mark day 1 done</label>
+    </div>
+  </article>
+  <article class="day" id="day-2">
+    <div class="day-num">Day 2</div>
+    <div class="day-body">
+      <h3>Psalm 15</h3>
+      <details class="passage" open>
+        <summary>Scripture (KJV)</summary>
+        <p class="kjv"><span class="v"><sup>1</sup>LORD, who shall abide in thy tabernacle? who shall dwell in thy holy hill?</span> <span class="v"><sup>2</sup>He that walketh uprightly, and worketh righteousness, and speaketh the truth in his heart.</span> <span class="v"><sup>3</sup>He that backbiteth not with his tongue, nor doeth evil to his neighbour, nor taketh up a reproach against his neighbour.</span> <span class="v"><sup>4</sup>In whose eyes a vile person is contemned; but he honoureth them that fear the LORD. He that sweareth to his own hurt, and changeth not.</span> <span class="v"><sup>5</sup>He that putteth not out his money to usury, nor taketh reward against the innocent. He that doeth these things shall never be moved.</span></p>
+      </details>
+      <ol class="qs"><li>In one sentence, what is this passage saying?</li><li>What’s one thing I’ll do or watch for today because of it?</li><li>Verse 4 honors the man who keeps his word even to his own hurt. What promise have I kept only when it was convenient?</li></ol>
+      <label class="done"><input type="checkbox" data-done="vm-study-w3-d2"> Mark day 2 done</label>
+    </div>
+  </article>
+  <article class="day" id="day-3">
+    <div class="day-num">Day 3</div>
+    <div class="day-body">
+      <h3>Ecclesiastes 5:1–7</h3>
+      <details class="passage" open>
+        <summary>Scripture (KJV)</summary>
+        <p class="kjv"><span class="v"><sup>1</sup>Keep thy foot when thou goest to the house of God, and be more ready to hear, than to give the sacrifice of fools: for they consider not that they do evil.</span> <span class="v"><sup>2</sup>Be not rash with thy mouth, and let not thine heart be hasty to utter any thing before God: for God is in heaven, and thou upon earth: therefore let thy words be few.</span> <span class="v"><sup>3</sup>For a dream cometh through the multitude of business; and a fool’s voice is known by multitude of words.</span> <span class="v"><sup>4</sup>When thou vowest a vow unto God, defer not to pay it; for he hath no pleasure in fools: pay that which thou hast vowed.</span> <span class="v"><sup>5</sup>Better is it that thou shouldest not vow, than that thou shouldest vow and not pay.</span> <span class="v"><sup>6</sup>Suffer not thy mouth to cause thy flesh to sin; neither say thou before the angel, that it was an error: wherefore should God be angry at thy voice, and destroy the work of thine hands?</span> <span class="v"><sup>7</sup>For in the multitude of dreams and many words there are also divers vanities: but fear thou God.</span></p>
+      </details>
+      <ol class="qs"><li>In one sentence, what is this passage saying?</li><li>What’s one thing I’ll do or watch for today because of it?</li><li>Where would it be wiser for me not to promise at all?</li></ol>
+      <label class="done"><input type="checkbox" data-done="vm-study-w3-d3"> Mark day 3 done</label>
+    </div>
+  </article>
+  <article class="day" id="day-4">
+    <div class="day-num">Day 4</div>
+    <div class="day-body">
+      <h3>Daniel 6:1–10</h3>
+      <details class="passage" open>
+        <summary>Scripture (KJV)</summary>
+        <p class="kjv"><span class="v"><sup>1</sup>It pleased Darius to set over the kingdom an hundred and twenty princes, which should be over the whole kingdom;</span> <span class="v"><sup>2</sup>And over these three presidents; of whom Daniel was first: that the princes might give accounts unto them, and the king should have no damage.</span> <span class="v"><sup>3</sup>Then this Daniel was preferred above the presidents and princes, because an excellent spirit was in him; and the king thought to set him over the whole realm.</span> <span class="v"><sup>4</sup>Then the presidents and princes sought to find occasion against Daniel concerning the kingdom; but they could find none occasion nor fault; forasmuch as he was faithful, neither was there any error or fault found in him.</span> <span class="v"><sup>5</sup>Then said these men, We shall not find any occasion against this Daniel, except we find it against him concerning the law of his God.</span> <span class="v"><sup>6</sup>Then these presidents and princes assembled together to the king, and said thus unto him, King Darius, live for ever.</span> <span class="v"><sup>7</sup>All the presidents of the kingdom, the governors, and the princes, the counsellors, and the captains, have consulted together to establish a royal statute, and to make a firm decree, that whosoever shall ask a petition of any God or man for thirty days, save of thee, O king, he shall be cast into the den of lions.</span> <span class="v"><sup>8</sup>Now, O king, establish the decree, and sign the writing, that it be not changed, according to the law of the Medes and Persians, which altereth not.</span> <span class="v"><sup>9</sup>Wherefore king Darius signed the writing and the decree.</span> <span class="v"><sup>10</sup>Now when Daniel knew that the writing was signed, he went into his house; and his windows being open in his chamber toward Jerusalem, he kneeled upon his knees three times a day, and prayed, and gave thanks before his God, as he did aforetime.</span></p>
+      </details>
+      <ol class="qs"><li>In one sentence, what is this passage saying?</li><li>What’s one thing I’ll do or watch for today because of it?</li><li>Daniel prayed “as he did aforetime.” Which of my daily habits would still hold if life got hard tomorrow?</li></ol>
+      <label class="done"><input type="checkbox" data-done="vm-study-w3-d4"> Mark day 4 done</label>
+    </div>
+  </article>
+  <article class="day" id="day-5">
+    <div class="day-num">Day 5</div>
+    <div class="day-body">
+      <h3>Nehemiah 4:1–23 and Nehemiah 6:15–16</h3>
+      <details class="passage" open>
+        <summary>Scripture (KJV)</summary>
+        <h4>Nehemiah 4:1–23</h4><p class="kjv"><span class="v"><sup>1</sup>But it came to pass, that when Sanballat heard that we builded the wall, he was wroth, and took great indignation, and mocked the Jews.</span> <span class="v"><sup>2</sup>And he spake before his brethren and the army of Samaria, and said, What do these feeble Jews? will they fortify themselves? will they sacrifice? will they make an end in a day? will they revive the stones out of the heaps of the rubbish which are burned?</span> <span class="v"><sup>3</sup>Now Tobiah the Ammonite was by him, and he said, Even that which they build, if a fox go up, he shall even break down their stone wall.</span> <span class="v"><sup>4</sup>Hear, O our God; for we are despised: and turn their reproach upon their own head, and give them for a prey in the land of captivity:</span> <span class="v"><sup>5</sup>And cover not their iniquity, and let not their sin be blotted out from before thee: for they have provoked thee to anger before the builders.</span> <span class="v"><sup>6</sup>So built we the wall; and all the wall was joined together unto the half thereof: for the people had a mind to work.</span> <span class="v"><sup>7</sup>But it came to pass, that when Sanballat, and Tobiah, and the Arabians, and the Ammonites, and the Ashdodites, heard that the walls of Jerusalem were made up, and that the breaches began to be stopped, then they were very wroth,</span> <span class="v"><sup>8</sup>And conspired all of them together to come and to fight against Jerusalem, and to hinder it.</span> <span class="v"><sup>9</sup>Nevertheless we made our prayer unto our God, and set a watch against them day and night, because of them.</span> <span class="v"><sup>10</sup>And Judah said, The strength of the bearers of burdens is decayed, and there is much rubbish; so that we are not able to build the wall.</span> <span class="v"><sup>11</sup>And our adversaries said, They shall not know, neither see, till we come in the midst among them, and slay them, and cause the work to cease.</span> <span class="v"><sup>12</sup>And it came to pass, that when the Jews which dwelt by them came, they said unto us ten times, From all places whence ye shall return unto us they will be upon you.</span> <span class="v"><sup>13</sup>Therefore set I in the lower places behind the wall, and on the higher places, I even set the people after their families with their swords, their spears, and their bows.</span> <span class="v"><sup>14</sup>And I looked, and rose up, and said unto the nobles, and to the rulers, and to the rest of the people, Be not ye afraid of them: remember the Lord, which is great and terrible, and fight for your brethren, your sons, and your daughters, your wives, and your houses.</span> <span class="v"><sup>15</sup>And it came to pass, when our enemies heard that it was known unto us, and God had brought their counsel to nought, that we returned all of us to the wall, every one unto his work.</span> <span class="v"><sup>16</sup>And it came to pass from that time forth, that the half of my servants wrought in the work, and the other half of them held both the spears, the shields, and the bows, and the habergeons; and the rulers were behind all the house of Judah.</span> <span class="v"><sup>17</sup>They which builded on the wall, and they that bare burdens, with those that laded, every one with one of his hands wrought in the work, and with the other hand held a weapon.</span> <span class="v"><sup>18</sup>For the builders, every one had his sword girded by his side, and so builded. And he that sounded the trumpet was by me.</span> <span class="v"><sup>19</sup>And I said unto the nobles, and to the rulers, and to the rest of the people, The work is great and large, and we are separated upon the wall, one far from another.</span> <span class="v"><sup>20</sup>In what place therefore ye hear the sound of the trumpet, resort ye thither unto us: our God shall fight for us.</span> <span class="v"><sup>21</sup>So we laboured in the work: and half of them held the spears from the rising of the morning till the stars appeared.</span> <span class="v"><sup>22</sup>Likewise at the same time said I unto the people, Let every one with his servant lodge within Jerusalem, that in the night they may be a guard to us, and labour on the day.</span> <span class="v"><sup>23</sup>So neither I, nor my brethren, nor my servants, nor the men of the guard which followed me, none of us put off our clothes, saving that every one put them off for washing.</span></p><h4>Nehemiah 6:15–16</h4><p class="kjv"><span class="v"><sup>15</sup>So the wall was finished in the twenty and fifth day of the month Elul, in fifty and two days.</span> <span class="v"><sup>16</sup>And it came to pass, that when all our enemies heard thereof, and all the heathen that were about us saw these things, they were much cast down in their own eyes: for they perceived that this work was wrought of our God.</span></p>
+      </details>
+      <ol class="qs"><li>In one sentence, what is this passage saying?</li><li>What’s one thing I’ll do or watch for today because of it?</li><li>What tried to stop Nehemiah from finishing, and what tends to stop me?</li></ol>
+      <label class="done"><input type="checkbox" data-done="vm-study-w3-d5"> Mark day 5 done</label>
+    </div>
+  </article>
+  <article class="day" id="day-6">
+    <div class="day-num">Day 6</div>
+    <div class="day-body">
+      <h3>Galatians 6:7–10</h3>
+      <details class="passage" open>
+        <summary>Scripture (KJV)</summary>
+        <p class="kjv"><span class="v"><sup>7</sup>Be not deceived; God is not mocked: for whatsoever a man soweth, that shall he also reap.</span> <span class="v"><sup>8</sup>For he that soweth to his flesh shall of the flesh reap corruption; but he that soweth to the Spirit shall of the Spirit reap life everlasting.</span> <span class="v"><sup>9</sup>And let us not be weary in well doing: for in due season we shall reap, if we faint not.</span> <span class="v"><sup>10</sup>As we have therefore opportunity, let us do good unto all men, especially unto them who are of the household of faith.</span></p>
+      </details>
+      <ol class="qs"><li>In one sentence, what is this passage saying?</li><li>What’s one thing I’ll do or watch for today because of it?</li><li>What am I sowing now that a future relationship will reap?</li></ol>
+      <label class="done"><input type="checkbox" data-done="vm-study-w3-d6"> Mark day 6 done</label>
+    </div>
+  </article>
+  <article class="day day-7" id="day-7">
+    <div class="day-num">Day 7</div>
+    <div class="day-body">
+      <h3>Review and journal</h3>
+      <p>Read back through your six daily answers first. Then give 30 to 40 minutes to these deeper questions.</p>
+      <ol class="qs"><li>Where do I overpromise?</li><li>Which commitments do I drop when I’m tired or when nobody’s watching?</li><li>Looking at this week’s tracker, what does my follow-through actually say about me?</li></ol>
+      <p class="practice-check">Did you do this week’s practice? Tell your accountability brother how it went.</p>
+      <label class="done"><input type="checkbox" data-done="vm-study-w3-d7"> Mark day 7 done</label>
+    </div>
+  </article>
+  </div>
+</section>
+<nav class="wk-nav study-wrap" aria-label="Week navigation"><a class="wk-prev" href="/mens-study-week-2"><span>Week 2</span>The Root of Control: Fear</a><a class="wk-next" href="/mens-study-week-4"><span>Week 4</span>Pursuing Like Boaz</a></nav>
+</main>
+
+<footer class="foot"><div class="foot-inner">
+  <div class="foot-links"><a href="/apply">Apply</a><a href="/about">About</a><a href="/questions">Questions</a><a href="/supplements">Supplements</a><a href="/resources">Resources</a><a href="/pattaya-coaching">Pattaya</a><a href="/mens-study">Men’s Study</a></div>
+  <div>Vagabond Muscle Coaching · Pattaya, Thailand · Coaching worldwide</div>
+  <p class="fine">© Vagabond Muscle Coaching.</p>
+</div></footer>
+<script>
+(function(){
+  function get(k){try{return localStorage.getItem(k)==='1';}catch(e){return false;}}
+  function set(k,v){try{v?localStorage.setItem(k,'1'):localStorage.removeItem(k);}catch(e){}}
+  document.querySelectorAll('[data-done]').forEach(function(box){
+    var k=box.getAttribute('data-done'); box.checked=get(k);
+    box.closest('.day').classList.toggle('is-done',box.checked);
+    box.addEventListener('change',function(){set(k,box.checked);box.closest('.day').classList.toggle('is-done',box.checked);});
+  });
+  document.querySelectorAll('[data-week]').forEach(function(el){
+    var w=el.getAttribute('data-week'),n=0;
+    for(var d=1;d<=7;d++){if(get('vm-study-w'+w+'-d'+d))n++;}
+    el.textContent=n===7?'Completed':(n? n+' of 7 days done':'Not started');
+    if(n) el.classList.add('started');
+  });
+})();
+</script>
+</body>
+</html>
