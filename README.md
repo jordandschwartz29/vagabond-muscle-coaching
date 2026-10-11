@@ -6,7 +6,7 @@ Standalone static site for Vagabond Muscle Coaching. Pure HTML + CSS, no build s
 
 ```
 index.html              Homepage (hero, tiers, method, about, transformation, proof, one-time, supplier banner, CTA)
-about.html              Coach bio / "Why 35+" / how I work
+about.html              Coach bio / "Why men who are rebuilding" / how I work
 questions.html          FAQ
 apply.html              Application page (form embed goes here)
 foundations.html        Coaching tier — Foundations
